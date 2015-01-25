@@ -270,6 +270,7 @@ p.nodata{
   position: fixed;
   top: 10px;
   right: 10px;
+  visibility: hidden;
 }
 
 
