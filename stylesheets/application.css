@@ -340,7 +340,7 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   height: 22px;
 }
 
-#main-menu li a, #main-menu li a:hover {
+#main-menu li a, #main-menu li a:hover, #main-menu li a.selected, #main-menu li a.selected:hover {
   padding-top: 55px;
   background-image: url("../images/menu_default.png");
   background-repeat: no-repeat;
@@ -408,3 +408,83 @@ div.members h3 {
   height: 30px;
 }
 
+input, select {
+  height: 15px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+select {
+  height: auto;
+}
+
+select[multiple] {
+  height: auto;
+}
+
+input:hover, select:hover {
+  border-color: #ccc;
+  border-color: rgba(82,168,236,.8);
+  outline: 0;
+  outline: thin dotted \9;
+  -webkit-box-shadow: 0 0 8px rgba(82,168,236,.6);
+  box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+
+input.file_selector {
+  height: 100%;
+  padding: 0px;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+input[type="submit"] {
+  height: 100%;
+  cursor:pointer;
+}
+
+input[type="button"] {
+  height: 20px;
+  padding: 0px;
+}
+
+input#issue_subject {
+  width: 60%;
+}
+
+textarea {
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+textarea:hover {
+  border-color: #ccc;
+  border-color: rgba(82,168,236,.8);
+  outline: 0;
+  outline: thin dotted \9;
+  -webkit-box-shadow: 0 0 8px rgba(82,168,236,.6);
+  box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+
+.ui-datepicker-title select {
+  width: 95px !important;
+}
