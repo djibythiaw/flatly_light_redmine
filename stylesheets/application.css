@@ -531,7 +531,7 @@ div.issue img.gravatar {
 }
 
 #content > div.contextual > a {
-  display: none;
+  /*display: none;*/
 }
 
 #user_avatar {
