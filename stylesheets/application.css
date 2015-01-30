@@ -185,7 +185,7 @@ label[for="q"]{
 
 #account{
   position: absolute;
-  top: 170px;
+  top: 185px;
   margin-bottom: 50px;
   margin-left: 20px;
 }
@@ -536,6 +536,7 @@ div.issue img.gravatar {
 
 #user_avatar {
   text-align: center;
+  margin-top: 15px;
 }
 
 #user_avatar > img {
