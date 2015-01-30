@@ -177,7 +177,7 @@ label[for="q"]{
   font-size: 0;
   border-bottom: 3px solid #2d3747;
   text-align: center;
-  margin-top: 10px;
+  margin-top: -50px;
   float: none;
   line-height: 25px;
   padding-bottom: 5px;
@@ -185,7 +185,7 @@ label[for="q"]{
 
 #account{
   position: absolute;
-  bottom: 0;
+  top: 170px;
   margin-bottom: 50px;
   margin-left: 20px;
 }
@@ -320,7 +320,7 @@ tr.time-entry {
   margin: auto;
   width: 240px;
   height: 50px;
-  background-image: url('../images/logo_menu.png');
+  /*background-image: url('../images/logo_menu.png');*/
   background-size: 235px;
   background-repeat: no-repeat;
 }
@@ -352,6 +352,13 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
 }
 
 #main-menu li a.overview, #main-menu li a.overview:hover {
+  padding-top: 62px;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main-menu li a.my, #main-menu li a.my:hover {
   padding-top: 62px;
   background-image: url("../images/overview.png");
   background-repeat: no-repeat;
@@ -512,4 +519,48 @@ select#scope {
 
 .tabular label {
   margin-top: 5px;
+}
+
+h4 img.gravatar, #activity dt img.gravatar {
+  width: 35px;
+  height: 35px;
+}
+
+div.issue img.gravatar {
+  border-radius: 5px;
+}
+
+#content > div.contextual > a {
+  display: none;
+}
+
+#user_avatar {
+  text-align: center;
+}
+
+#user_avatar > img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  padding: 0px;
+  border: none;
+  background: none;
+}
+
+#account > ul > li:nth-child(1) {
+  background: url("../images/home.png") no-repeat left;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+
+#account > ul > li:nth-child(2) {
+  background: url("../images/home.png") no-repeat left;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+
+#top-menu > ul > li {
+  background: url("../images/home.png") no-repeat left;
+  padding-left: 40px;
+  padding-top: 5px;
 }
