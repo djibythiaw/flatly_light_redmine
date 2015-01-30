@@ -116,17 +116,17 @@ label[for="q"]{
 
 #header{
   padding-left: 80px;
-  padding-top: 80px;
+  padding-top: 18px;
   background-color: #fefefe;
   color: #fefefe;
-  background: url("../images/logo.png") no-repeat bottom right;
-  background-size: 10%;
+  background: url("../images/logo_menu.png") no-repeat bottom left;
 }
 
 #header h1{
   color: #4e515e;
   margin-left: -40px;
   margin-bottom: 55px;
+  display: none;
 }
 #header h1 a{
   color: #4e515e;
@@ -199,6 +199,10 @@ label[for="q"]{
   border-bottom: 2px solid #dee4e9;
 }
 /*=========MAIN MENU=======*/
+#main-menu {
+  left: 395px;
+}
+
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
   border-bottom: 3px solid #40aff8;
@@ -208,7 +212,7 @@ label[for="q"]{
 }
 #main-menu li a {
   color: #848f9f;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-left: 20px;
   padding: 4px 5px 4px 5px;
 }
@@ -341,56 +345,56 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
 }
 
 #main-menu li a, #main-menu li a:hover, #main-menu li a.selected, #main-menu li a.selected:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/menu_default.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.overview, #main-menu li a.overview:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/overview.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.activity, #main-menu li a.activity:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/activity.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.issues, #main-menu li a.issues:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/task.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.new-issue, #main-menu li a.new-issue:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/new-task.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.news, #main-menu li a.news:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/news.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.documents, #main-menu li a.documents:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/documents.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.settings, #main-menu li a.settings:hover {
-  padding-top: 55px;
+  padding-top: 62px;
   background-image: url("../images/settings.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -450,8 +454,13 @@ input.file_selector {
   transition: none;
 }
 
+input.autocomplete {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 input[type="submit"] {
-  height: 100%;
+  height: auto;
   cursor:pointer;
 }
 
@@ -487,4 +496,20 @@ textarea:hover {
 
 .ui-datepicker-title select {
   width: 95px !important;
+}
+
+img.ui-datepicker-trigger {
+  content: url("../images/calendar.png");
+}
+
+select#scope {
+  display: none;
+}
+
+.tabular.settings textarea {
+  width: 90%;
+}
+
+.tabular label {
+  margin-top: 5px;
 }
