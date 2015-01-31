@@ -72,7 +72,7 @@ h1:first-letter{
 }
 
 #top-menu > ul{
-  margin-top: 20px;
+  margin-top: 95px;
   padding: 0 0 20px 20px;
 }
 
@@ -185,7 +185,7 @@ label[for="q"]{
 
 #account{
   position: absolute;
-  top: 185px;
+  top: 155px;
   margin-bottom: 50px;
   margin-left: 20px;
 }
@@ -193,8 +193,9 @@ label[for="q"]{
   padding: 0px;
 }
 #top-menu .logout{
-  color: #ad66ad;
+  color: #a0abbe;
 }
+
 #header{
   border-bottom: 2px solid #dee4e9;
 }
@@ -574,3 +575,4 @@ div.issue table img.gravatar {
 p.breadcrumb {
   display: none;
 }
+
