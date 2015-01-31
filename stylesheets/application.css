@@ -74,8 +74,8 @@ h1:first-letter{
 #top-menu > ul{
   margin-top: 20px;
   padding: 0 0 20px 20px;
-  border-bottom: 3px solid #2d3747;
 }
+
 #top-menu, .menu-push-toright, body, #menu, #quick-search {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -530,8 +530,8 @@ div.issue img.gravatar {
   border-radius: 5px;
 }
 
-#content > div.contextual > a {
-  /*display: none;*/
+.parsonnalize_my_page {
+  display: none;
 }
 
 #user_avatar {
@@ -549,19 +549,24 @@ div.issue img.gravatar {
 }
 
 #account > ul > li:nth-child(1) {
-  background: url("../images/home.png") no-repeat left;
+  background: url("../images/user.png") no-repeat left;
   padding-left: 40px;
   padding-top: 5px;
 }
 
 #account > ul > li:nth-child(2) {
-  background: url("../images/home.png") no-repeat left;
+  background: url("../images/logout.png") no-repeat left;
   padding-left: 40px;
   padding-top: 5px;
 }
 
 #top-menu > ul > li {
-  background: url("../images/home.png") no-repeat left;
+  background: url("../images/settings.png") no-repeat left;
   padding-left: 40px;
   padding-top: 5px;
+}
+
+div.issue table img.gravatar {
+  height: 32px;
+  width: 32px;
 }
