@@ -570,3 +570,7 @@ div.issue table img.gravatar {
   height: 32px;
   width: 32px;
 }
+
+p.breadcrumb {
+  display: none;
+}
