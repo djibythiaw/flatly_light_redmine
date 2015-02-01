@@ -115,11 +115,13 @@ label[for="q"]{
 }
 
 #header{
-  padding-top: 10px;
+  padding-top: 15px;
   background-color: #fefefe;
   color: #fefefe;
-  background: url("../images/logo_menu.png") no-repeat bottom left;
+  background: url("../images/logo.png") no-repeat bottom left;
   background-position-x: 15px;
+  background-size: 230px;
+  background-position-y: 62px;
 }
 
 #header h1{
@@ -338,10 +340,8 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
 #login-form table {
   background: none;
   border: none;
-  margin-top: 0;
-  padding-top: 100px;
 }
-
+**
 #login-form input#username, #login-form input#password {
   width: 268px;
   height: 22px;
@@ -377,7 +377,7 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
 
 #main-menu li a.issues, #main-menu li a.issues:hover {
   padding-top: 55px;
-  background-image: url("../images/task.png");
+  background-image: url("../images/tasks.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -555,14 +555,14 @@ div.issue img.gravatar {
   background: url("../images/user.png") no-repeat right;
   padding-right: 85px;
   padding-top: 5px;
-  background-size: 24px;
+  background-size: 18px;
 }
 
 #account > ul > li:nth-child(2) {
   background: url("../images/logout.png") no-repeat right;
   padding-right: 85px;
   padding-top: 5px;
-  background-size: 24px;
+  background-size: 18px;
 }
 
 #top-menu > ul > li {
@@ -591,6 +591,7 @@ img.login_password {
 }
 
 img.logo_login {
-  content: url("../images/logo_login.png");
+  content: url("../images/logo.png");
+  padding-left: 5px;
 }
 
