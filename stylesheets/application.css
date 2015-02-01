@@ -595,3 +595,9 @@ img.logo_login {
   padding-left: 5px;
 }
 
+#login_submit {
+  background-color: #00ad7a;
+  border: none;
+  color: black;
+}
+
