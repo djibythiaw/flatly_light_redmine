@@ -115,11 +115,11 @@ label[for="q"]{
 }
 
 #header{
-  padding-left: 80px;
-  padding-top: 18px;
+  padding-top: 10px;
   background-color: #fefefe;
   color: #fefefe;
   background: url("../images/logo_menu.png") no-repeat bottom left;
+  background-position-x: 15px;
 }
 
 #header h1{
@@ -201,7 +201,9 @@ label[for="q"]{
 }
 /*=========MAIN MENU=======*/
 #main-menu {
-  left: 395px;
+  right: 10px;
+  margin-right: 0px;
+  left: inherit;
 }
 
 #main-menu li a.selected,
@@ -337,72 +339,72 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   background: none;
   border: none;
   margin-top: 0;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 #login-form input#username, #login-form input#password {
-  width: 250px;
+  width: 268px;
   height: 22px;
 }
 
 #main-menu li a, #main-menu li a:hover, #main-menu li a.selected, #main-menu li a.selected:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/menu_default.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.overview, #main-menu li a.overview:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/home.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.my, #main-menu li a.my:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/overview.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.activity, #main-menu li a.activity:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/activity.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.issues, #main-menu li a.issues:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/task.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.new-issue, #main-menu li a.new-issue:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/new-task.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.news, #main-menu li a.news:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/news.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.documents, #main-menu li a.documents:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/documents.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #main-menu li a.settings, #main-menu li a.settings:hover {
-  padding-top: 62px;
+  padding-top: 55px;
   background-image: url("../images/settings.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -550,21 +552,24 @@ div.issue img.gravatar {
 }
 
 #account > ul > li:nth-child(1) {
-  background: url("../images/user.png") no-repeat left;
-  padding-left: 40px;
+  background: url("../images/user.png") no-repeat right;
+  padding-right: 85px;
   padding-top: 5px;
+  background-size: 24px;
 }
 
 #account > ul > li:nth-child(2) {
-  background: url("../images/logout.png") no-repeat left;
-  padding-left: 40px;
+  background: url("../images/logout.png") no-repeat right;
+  padding-right: 85px;
   padding-top: 5px;
+  background-size: 24px;
 }
 
 #top-menu > ul > li {
-  background: url("../images/settings.png") no-repeat left;
-  padding-left: 40px;
+  background: url("../images/settings_admin.png") no-repeat right;
+  width: 193px;
   padding-top: 5px;
+  background-size: 24px;
 }
 
 div.issue table img.gravatar {
@@ -574,5 +579,18 @@ div.issue table img.gravatar {
 
 p.breadcrumb {
   display: none;
+}
+
+img.login_username {
+  content: url("../images/login_username.png");
+  width: 26px;
+}
+
+img.login_password {
+  content: url("../images/login_password.png");
+}
+
+img.logo_login {
+  content: url("../images/logo_login.png");
 }
 
