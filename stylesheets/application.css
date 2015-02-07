@@ -6,7 +6,7 @@
 @import url(DMSF.css);
 @import url(buttons.css);
 @import url(forum.css);
-@import url(news.css);
+/*@import url(news.css);*/
 @import url(pagination.css);
 @import url(redminebacklogs.css);
 @import url(activity.css);
@@ -529,6 +529,10 @@ h4 img.gravatar, #activity dt img.gravatar {
   height: 45px;
 }
 
+h4 img.gravatar {
+  margin: 5px 4px -4px 0;
+}
+
 div.issue img.gravatar {
   border-radius: 5px;
 }
@@ -599,5 +603,15 @@ img.logo_login {
   background-color: #00ad7a;
   border: none;
   color: black;
+}
+
+h2 img.gravatar {
+  width: 45px;
+  height: 45px;
+}
+
+h3 img.gravatar {
+  width: 45px;
+  height: 45px;
 }
 
