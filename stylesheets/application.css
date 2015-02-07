@@ -525,8 +525,8 @@ select#scope {
 }
 
 h4 img.gravatar, #activity dt img.gravatar {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
 }
 
 div.issue img.gravatar {
@@ -573,8 +573,8 @@ div.issue img.gravatar {
 }
 
 div.issue table img.gravatar {
-  height: 32px;
-  width: 32px;
+  height: 45px;
+  width: 45px;
 }
 
 p.breadcrumb {
