@@ -615,3 +615,19 @@ h3 img.gravatar {
   height: 45px;
 }
 
+table.meetings tr {
+  font-size: 16px;
+  height: 43px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+table.meetings td {
+  font-size: 16px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 10px;
+  padding-top: 13px;
+  text-align: center;
+}
+
