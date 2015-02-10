@@ -12,7 +12,7 @@
 @import url(activity.css);
 
 html{
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 body {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
@@ -22,6 +22,7 @@ body {
   position: relative;
   left: 0;
   right: 0;
+  min-width: 1250px;
 }
 h1, h2, h3, h4 {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
@@ -588,7 +589,7 @@ div.issue img.gravatar {
 
 #top-menu > ul > li {
   background: url("../images/settings_admin.png") no-repeat right;
-  width: 193px;
+  width: 205px;
   padding-top: 5px;
   background-size: 24px;
 }
