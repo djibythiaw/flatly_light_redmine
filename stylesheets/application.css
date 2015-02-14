@@ -539,7 +539,7 @@ select#scope {
 }
 
 .tabular label {
-  margin-top: 5px;
+  /*margin-top: 5px;*/
 }
 
 h4 img.gravatar, #activity dt img.gravatar {
