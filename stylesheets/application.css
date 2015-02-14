@@ -543,8 +543,8 @@ select#scope {
 }
 
 h4 img.gravatar, #activity dt img.gravatar {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
 }
 
 h4 img.gravatar {
@@ -565,8 +565,8 @@ div.issue img.gravatar {
 }
 
 #user_avatar > img {
-  width: 64px;
-  height: 64px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   padding: 0px;
   border: none;
@@ -595,8 +595,8 @@ div.issue img.gravatar {
 }
 
 div.issue table img.gravatar {
-  height: 45px;
-  width: 45px;
+  height: 64px;
+  width: 64px;
 }
 
 p.breadcrumb {
@@ -624,13 +624,13 @@ img.logo_login {
 }
 
 h2 img.gravatar {
-  width: 45px;
-  height: 45px;
+  width: 64px;
+  height: 64px;
 }
 
 h3 img.gravatar {
-  width: 45px;
-  height: 45px;
+  width: 64px;
+  height: 64px;
 }
 
 table.meetings tr {
