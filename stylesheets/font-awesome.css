@@ -35,8 +35,8 @@ a.icon{
 }
 .icon:before{ color: #4CBAC1; }
 .fa:before, .icon:before{
-  margin-right: 3px;
-  font-size: 17px;
+  margin-right: 5px;
+  font-size: 22px;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
