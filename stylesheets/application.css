@@ -428,6 +428,14 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   background-size: 45px;
 }
 
+#main-menu li a.gantt, #main-menu li a.gantt:hover {
+  padding-top: 70px;
+  background-image: url("../images/gantt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px;
+}
+
 div.issues h3 {
   background: url("../images/task.png") no-repeat 0% 50%;
   padding-left: 38px;
