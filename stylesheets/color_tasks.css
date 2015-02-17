@@ -81,4 +81,17 @@ table.progress td.closed{
   border-right: 5px !important;
   background-color: #4cbac1;
 }
+
+table.progress td.done_ratio_level_1{
+  background-color: orangered;
+}
+table.progress td.done_ratio_level_2{
+  background-color: gold;
+}
+table.progress td.done_ratio_level_3{
+  background-color: chartreuse;
+}
+table.progress td.done_ratio_level_4{
+  background-color: royalblue;
+}
 table.progress{ height: 5px !important; border-right: 5px !important; }
