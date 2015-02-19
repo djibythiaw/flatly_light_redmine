@@ -119,10 +119,10 @@ label[for="q"]{
   padding-top: 25px;
   background-color: #fefefe;
   color: #fefefe;
-  background: url("../images/logo.png") no-repeat bottom left;
+  /*background: url("../images/logo.png") no-repeat bottom left;
   background-position-x: 15px;
   background-size: 250px;
-  background-position-y: 62px;
+  background-position-y: 62px;*/
 }
 
 #header h1{
@@ -206,7 +206,7 @@ label[for="q"]{
 #main-menu {
   right: 10px;
   margin-right: 0px;
-  left: inherit;
+  /*left: inherit;*/
 }
 
 #main-menu li a.selected,
@@ -436,6 +436,14 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   background-size: 45px;
 }
 
+#main-menu li a.help, #main-menu li a.help:hover {
+  padding-top: 70px;
+  background-image: url("../images/help.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px;
+}
+
 div.issues h3 {
   background: url("../images/task.png") no-repeat 0% 50%;
   padding-left: 38px;
@@ -498,6 +506,24 @@ input.autocomplete {
 input[type="submit"] {
   height: auto;
   cursor:pointer;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"].focus,
+input[type="submit"]:active,
+input[type="submit"].active {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+input[type="submit"]:active,
+input[type="submit"].active {
+  background-image: none;
 }
 
 input[type="button"] {

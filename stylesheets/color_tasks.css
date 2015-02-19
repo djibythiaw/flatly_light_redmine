@@ -64,7 +64,7 @@ table.list th { background-color: #6f7c93; text-align: center !important; }
 table.list th a{ color: #f5f6f7; }
 table.list tbody tr:hover { background-color: #dee4e9; transition: .5s; }
 table.list th.checkbox{ width: 50px; text-align: none; }
-tr.issue td.done_ratio table.progress{ width: 100% !important; }
+tr.issue td.done_ratio table.progress{ width: 100% !important; height: 14px !important;}
 table.progress{
   width: 80% !important;
   border-radius: 2px;
@@ -80,18 +80,26 @@ table.progress td.closed{
   height: 5px !important;
   border-right: 5px !important;
   background-color: #4cbac1;
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  -webkit-background-size: 30px 30px;
+  background-size: 30px 30px;
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
 }
 
 table.progress td.done_ratio_level_1{
-  background-color: orangered;
+  background-color: #d9534f;
 }
 table.progress td.done_ratio_level_2{
-  background-color: gold;
+  background-color: #f0ad4e;
 }
 table.progress td.done_ratio_level_3{
-  background-color: chartreuse;
+  background-color: #5cb85c;
 }
 table.progress td.done_ratio_level_4{
-  background-color: royalblue;
+  background-color: #5bc0de;
 }
 table.progress{ height: 5px !important; border-right: 5px !important; }
