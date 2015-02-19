@@ -236,17 +236,18 @@ label[for="q"]{
 /*==========FALSH NOTICE======*/
 div.flash.notice{
   border: none;
-  border-left: 20px solid #1ABB9B;
+  border-left: 20px solid #27AE60;
   background: none;
-  background-color: rgba(0,255,0,0.1);
+  background-color: rgba(46,204,113,0.8);
   padding-left: 10px;
   border-radius: 4px;
+  color: #ffffff;;
 }
 div.flash.error, #errorExplanation{
   border: none;
-  border-left: 20px solid #880000;
+  border-left: 20px solid #C0392B;
   background: none;
-  background-color: rgba(255,0,0,0.1);
+  background-color: rgba(231,76,60,0.8);
   padding-left: 10px;
   border-radius: 4px;
 }
@@ -255,11 +256,12 @@ div.flash.error, #errorExplanation ul{
 }
 p.nodata{
   border: none;
-  border-left: 20px solid #FDBF3B;
+  border-left: 20px solid #F39C12;
   background: none;
-  background-color: #FFEBC1;
+  background-color: #F1C40F;
   padding-left: 10px;
   border-radius: 4px;
+  color: #ffffff;
 }
 /*==========CALENDAR==========*/
 #ui-datepicker-div{
