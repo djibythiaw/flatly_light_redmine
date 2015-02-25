@@ -733,3 +733,5 @@ table.meetings td {
   text-align: center;
 }
 
+form .attributes select { width: 80%; }
+
