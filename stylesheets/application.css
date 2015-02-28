@@ -22,7 +22,7 @@ body {
   position: relative;
   left: 0;
   right: 0;
-  min-width: 1250px;
+  min-width: 1400px;
 }
 h1, h2, h3, h4 {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
@@ -118,10 +118,10 @@ label[for="q"]{
   padding-top: 25px;
   background-color: #fefefe;
   color: #fefefe;
-  /*background: url("../images/logo.png") no-repeat bottom left;
+  background: url("../images/logo2.flat.png") no-repeat bottom left;
   background-position-x: 15px;
-  background-size: 250px;
-  background-position-y: 62px;*/
+  background-size: 68px;
+  background-position-y: 62px;
 }
 
 #header h1{
@@ -205,7 +205,7 @@ label[for="q"]{
 #main-menu {
   right: 10px;
   margin-right: 0px;
-  /*left: inherit;*/
+  left: inherit;
 }
 
 #main-menu li a.selected,
@@ -343,6 +343,8 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
 #login-form table {
   background: none;
   border: none;
+  margin-top: 0px !important;
+  padding-left: 100px;
 }
 **
 #login-form input#username, #login-form input#password {
@@ -697,14 +699,9 @@ img.login_password {
 }
 
 img.logo_login {
-  content: url("../images/logo.png");
+  content: url("../images/logo.flat.png");
   padding-left: 5px;
-}
-
-#login_submit {
-  background-color: #00ad7a;
-  border: none;
-  color: black;
+  width: 365px;
 }
 
 h2 img.gravatar {
