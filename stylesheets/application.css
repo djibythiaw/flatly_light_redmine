@@ -343,8 +343,10 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
 #login-form table {
   background: none;
   border: none;
-  margin-top: 0px !important;
-  padding-left: 100px;
+  margin-top: 0 !important;
+  margin-left: 100px;
+  background-color: rgba(44, 204, 113, 0.15);
+  border-radius: 15px;
 }
 **
 #login-form input#username, #login-form input#password {
@@ -700,8 +702,7 @@ img.login_password {
 
 img.logo_login {
   content: url("../images/logo.flat.png");
-  padding-left: 5px;
-  width: 365px;
+  width: 372px;
 }
 
 h2 img.gravatar {
