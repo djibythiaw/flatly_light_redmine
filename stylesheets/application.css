@@ -28,6 +28,7 @@ h1, h2, h3, h4 {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
   padding: 2px 10px 1px 0px;
   margin: 0 0 10px 0;
+  font-size: 16px;
 }
 
 h1:first-letter{
@@ -187,7 +188,7 @@ label[for="q"]{
 
 #account{
   position: absolute;
-  top: 155px;
+  top: 185px;
   margin-bottom: 50px;
   margin-left: 20px;
 }
@@ -224,7 +225,7 @@ label[for="q"]{
 #main-menu li a:hover {
   background: none;
   color: #000;
-  border-bottom: 3px solid #40aff8;
+  border-bottom: 3px solid #27AE60;
 }
 #content{
   width: 81%;
@@ -394,8 +395,9 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   background-size: 45px;
 }
 
-#main-menu li a.activity, #main-menu li a.activity:hover {
+#main-menu li a.activity:hover {
   background-image: url("../images/activity_hover.flat.png");
+
 }
 
 #main-menu li a.issues, #main-menu li a.issues:hover {
@@ -442,7 +444,7 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   background-size: 45px;
 }
 
-#main-menu li a.news, #main-menu li a.news:hover {
+#main-menu li a.news:hover {
   background-image: url("../images/announces_hover.flat.png");
 }
 
@@ -526,7 +528,7 @@ select[multiple] {
   height: auto;
 }
 
-input:hover, select:hover {
+input:hover, select:hover, input:active, select:active, input:focus, select:focus {
   border-color: #1abc9c;
   outline: 0;
   box-shadow: none;
@@ -558,7 +560,7 @@ input[type="submit"] {
   line-height: 1.471;
   border-radius: 6px;
   background-color: #2ecc71;
-  font-weight: 400;
+  font-weight: 600;
   border: none;
   -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
   transition: border .25s linear,color .25s linear,background-color .25s linear;
@@ -631,16 +633,20 @@ select#scope {
 }
 
 h4 img.gravatar, #activity dt img.gravatar {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
 
 h4 img.gravatar {
-  margin: 5px 4px -4px 0;
+  margin: 5px 4px 2px 0;
 }
 
 div.issue img.gravatar {
-  border-radius: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
 }
 
 .parsonnalize_my_page {
@@ -653,8 +659,8 @@ div.issue img.gravatar {
 }
 
 #user_avatar > img {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   padding: 0px;
   border: none;
@@ -683,8 +689,9 @@ div.issue img.gravatar {
 }
 
 div.issue table img.gravatar {
-  height: 64px;
-  width: 64px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
 
 p.breadcrumb {
@@ -706,13 +713,15 @@ img.logo_login {
 }
 
 h2 img.gravatar {
-  width: 64px;
-  height: 64px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
 
 h3 img.gravatar {
-  width: 64px;
-  height: 64px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
 
 table.meetings tr {
@@ -733,3 +742,6 @@ table.meetings td {
 
 form .attributes select { width: 80%; }
 
+input.string_cf, input.link_cf {
+  width: 90%;
+}
