@@ -745,3 +745,7 @@ form .attributes select { width: 80%; }
 input.string_cf, input.link_cf {
   width: 90%;
 }
+
+#query_form_content table.query-columns input[type="button"] {
+  height: 25px;
+}
