@@ -28,6 +28,10 @@ h1, h2, h3, h4 {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
   padding: 2px 10px 1px 0px;
   margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+h4 {
   font-size: 16px;
 }
 
@@ -748,4 +752,8 @@ input.string_cf, input.link_cf {
 
 #query_form_content table.query-columns input[type="button"] {
   height: 25px;
+}
+
+.issues td.done_ratio {
+  min-width: 100px;
 }
