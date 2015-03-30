@@ -513,7 +513,7 @@ div.members h3 {
 }
 
 input, select {
-  height: 15px;
+  height: 20px;
   padding: 8px 12px;
   font-size: 15px;
   line-height: 1.467;
@@ -550,8 +550,15 @@ input.file_selector {
 }
 
 input.autocomplete {
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  height: 20px;
+  border: 2px solid #bdc3c7;
+  border-radius: 6px;
+}
+
+input.autocomplete:hover, input.autocomplete:active, input.autocomplete:focus {
+  border-color: #1abc9c;
+  outline: 0;
+  box-shadow: none;
 }
 
 input[type="submit"] {
