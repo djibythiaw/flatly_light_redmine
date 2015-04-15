@@ -764,3 +764,9 @@ input.string_cf, input.link_cf {
 .issues td.done_ratio {
   min-width: 100px;
 }
+
+p.pagination .per-page {
+  padding-top: 7px;
+  display: inline-block;
+  padding-left: 10px;
+}
