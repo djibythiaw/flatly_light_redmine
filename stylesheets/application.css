@@ -711,16 +711,30 @@ p.breadcrumb {
 
 img.login_username {
   content: url("../images/login_username.png");
-  width: 26px;
+  /*width: 26px;*/
+}
+
+img.login_username:after {
+  content: url("../images/login_username.png");
+  /*width: 26px;*/
 }
 
 img.login_password {
   content: url("../images/login_password.png");
 }
 
+img.login_password:after {
+  content: url("../images/login_password.png");
+}
+
 img.logo_login {
   content: url("../images/logo.flat.png");
-  width: 372px;
+  /*width: 372px;*/
+}
+
+img.logo_login:after {
+  content: url("../images/logo.flat.png");
+  /*width: 372px;*/
 }
 
 h2 img.gravatar {
