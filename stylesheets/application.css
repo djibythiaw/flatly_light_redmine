@@ -22,7 +22,7 @@ body {
   position: relative;
   left: 0;
   right: 0;
-  min-width: 1400px;
+  min-width: 1000px;
 }
 h1, h2, h3, h4 {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
@@ -127,6 +127,35 @@ label[for="q"]{
   background-position-x: 15px;
   background-size: 68px;
   background-position-y: 62px;
+}
+
+@media screen and (max-width: 1215px) {
+  #header {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  #header {
+    background: url("../images/logo2.flat.png") no-repeat bottom left;
+    background-position-x: 15px;
+    background-size: 68px;
+    background-position-y: 62px;
+  }
+
+  #main-menu li a {
+    margin-left: 5px !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #header {
+    background: none;
+  }
+}
+
+.autoscroll {
+  overflow-x: scroll !important;
 }
 
 #header h1{
